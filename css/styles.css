@@ -59,17 +59,10 @@ body {
     align-items: center;
 
     
+
+    
      }
-/*.nav::before {
-             content: "";
-             width: 100%;
-             position: absolute;
-             left: 0;
-             bottom: -1px;
-             height: 4px;
-             background-color: #404bbf;
-             border-radius: 2px;
-         }*/
+
 
 
 
@@ -84,9 +77,10 @@ body {
    /* color: #4d5ae5;*/
     margin-right: 76px;
 
-   
-        
+  
+         
       }
+         
 
 
 .logo-hdr {
@@ -100,9 +94,21 @@ body {
     display: block;
     padding: 24px 0;
 
+    position: relative;
+        color: #404bbf;
+
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
             }
-
+ .link-menu:hover::before {
+     content: "";
+     width: 100%;
+     position: absolute;
+     left: 0;
+     bottom: -1px;
+     height: 4px;
+     background-color: #404bbf;
+     border-radius: 2px;
+ }
  
 
 .link-address {
@@ -132,10 +138,9 @@ body {
     padding: 0;
     margin: 0;
 
-    position: relative;
-        color: #404bbf;
+   
               }
-                         .header-menu::before {
+                         .nav::before {
                               content: "";
                               width: 100%;
                               position: absolute;
