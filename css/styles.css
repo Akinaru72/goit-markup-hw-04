@@ -349,6 +349,27 @@ body {
     height: 40px;
 }
 
+.item-icons {
+    width: 100%;
+    height: 100%;
+    background-color:#4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-icons:hover,
+.item-icons:focus {
+    background-color: #404bbf;
+}
+
+.item {
+    fill: #f4f4fd;
+}
+
+
+
 /*.main-third-link:not(:last-child) {
     margin-right: 24px;
 } */
