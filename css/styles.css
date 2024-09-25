@@ -359,7 +359,9 @@ body {
     justify-content: center;
 }
 
-.item-icons:hover,
+.item-icons:hover {
+    background-color: #404bbf;
+}
 .item-icons:focus {
     background-color: #404bbf;
 }
