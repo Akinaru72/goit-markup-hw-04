@@ -537,13 +537,20 @@ overflow: hidden;
     align-items: baseline;
     gap: 120px;
 }
+.webstudio {
+margin-right: 120px
+}
 
-.footer-icons {
-    display: inline-flex;
+.footer-icons-list {
+    display: flex;
         gap: 16px;
         padding-top: 16px;
         /*padding-bottom: 32px;
         padding-left: 16px;*/
+}
+.footer-icons {
+    width: 40px;
+    height: 40px;
 }
 .logo-ftr {
    /* display: inline-block;*/
@@ -582,6 +589,7 @@ margin-bottom: 16px;
                       letter-spacing: 0.02em;
                       color: #FFF;
                       width: 264px;
-                      margin: 0;
+                      
+                    margin-bottom: 16px;
         
                   }
