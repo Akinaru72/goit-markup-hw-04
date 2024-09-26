@@ -150,8 +150,8 @@ body {
     margin: 0;
                  }
     
-.header-menu :hover::after,
-.header-menu :focus::after {
+.header-menu :hover::after {
+/*.header-menu :focus::after {*/
      
             content: "";
             width: 100%;
