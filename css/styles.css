@@ -23,11 +23,11 @@ body {
     
           }
                   
-*
+/*
 *::before
 *::after {
     box-sizing: border-box;
-         }
+         }*/
 
 .container {
     width: 100%;
