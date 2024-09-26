@@ -506,7 +506,7 @@ body {
     overflow: hidden;
 }
 
-.portfolio-images:hover {
+.portfolio-images:hover .portfolio-text {
  transform: translateY(0%);
 }
 
