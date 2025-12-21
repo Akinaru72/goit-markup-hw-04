@@ -1,81 +1,64 @@
 # goit-markup-hw-04
 
-• Створи репозиторій goit-markup-hw-04.
+**Homework #4:** Layout page with icons and decorative effects.
 
-• Склонуй створений репозиторій і скопіюй в нього файли попередньої роботи.
+Set up GitHub Pages and add a link to the live page in the **About** section of the repository.
 
-• Додай розмітку і оформлення іконок і декоративних ефектів з макета домашнього завдання #4.
+---
 
-• Для генерації SVG-спрайту використовуй сервіс Icomoon.
+## A — Project
 
-• Для оптимізації створеного SVG-спрайту використовуй сервіс svgomg.
+- **A1** — The project root contains an `images/` folder with images.
+- **A2** — All vector images (icons) are collected in an SVG sprite `icons.svg` located in the `images/` folder.
+- **A3** — All vector images are optimized.
+- **A4** — The project root contains a `css/` folder with the stylesheet.
+- **A5** — All styles are written in a single `styles.css` file inside the `css/` folder.
+- **A6** — File names contain **no uppercase letters, spaces, or transliteration**; only lowercase English letters and words.
+- **A7** — Code formatted using **Prettier**.
+- **A8** — All images and text content are taken from the design layout. Code follows the [Code Guide](https://codeguide.co/) recommendations.
+- **A9** — [modern-normalize](https://cdnjs.com/libraries/modern-normalize) is included.
+- **A10** — SVG sprite generated using [Icomoon](https://icomoon.io/).
+- **A11** — Generated SVG sprite optimized using [SVGOMG](https://jakearchibald.github.io/svgomg/).
+- **A12** — Code follows best practices.
 
-• Налаштуй GitHub Pages і додай посилання на живу сторінку в секцію About GitHub-репозиторія.
+---
 
-На що буде звертати увагу ментор :
+## B — Markup
 
-Проєкт
+- **B1** — All icons use vector graphics in SVG format.
+- **B2** — SVG icons are exported correctly; “group” option is used, not the raw vector.
+- **B3** — All icons from the SVG sprite are added in HTML using `<svg>` and `<use>`.
+- **B4** — In the “Advantages” section (unnamed section above Our Team), icons are included.
+- **B5** — In the Our Team section, social media icons are included.
+- **B7** — Social media icons are added in the footer.
+- **B8** — Full HTML markup of all layout elements is completed.
+- **B9** — Tags are used according to their semantic meaning.
 
-«A1» У корені проєкту є папка images з зображеннями.
+---
 
-«A2» Усі векторні зображення (іконки) зібрані в SVG-спрайт icons.svg, який лежить у папці images.
+## C — Visual Design & Effects
 
-«A3» Усі векторні зображення оптимізовані.
+- **C1** — Large image with darkening effect (under header) is implemented as a background. Gradient layered background is used for darkening.
+- **C2** — Background image in the block under header does not stretch beyond its original 1440px width.
+- **C3** — Cards in the Our Team section have a permanent shadow effect.
+- **C4** — Cards in the Our Portfolio section have a hover shadow effect anywhere on the card.
+- **C5** — On hover or focus, icons change to an active state (color change if specified in layout).
+- **C6** — All hover and focus effects (color, background, shadow) have transitions: duration 250ms, timing function `cubic-bezier(0.4, 0, 0.2, 1)`.
+- **C7** — Transitions explicitly define animated properties; `all` is not used.
+- **C8** — In main navigation, the current page link is underlined using `::after` pseudo-element.
+- **C9** — Overlay with text on Our Portfolio cards appears on hover anywhere on the card.
+- **C10** — Blue overlay on Our Portfolio cards slides up from the bottom.
+- **C11** — Pseudo-elements do not have text content in `content`; used purely for decorative purposes.
 
-«A4» У корені проєкту є папка css з файлами стилів.
+---
 
-«A5» Всі стилі написані в одному файлі styles.css, який знаходиться в папці css.
+## Resources
 
-«A6» У назвах файлів відсутні великі літери, пробіли і трансліт. Назви містять тільки літери і слова англійської мови.
+- [Code Guide](https://codeguide.co/) — coding style guide
+- [modern-normalize](https://cdnjs.com/libraries/modern-normalize) — CSS normalization
+- [Icomoon](https://icomoon.io/) — SVG sprite generation
+- [SVGOMG](https://jakearchibald.github.io/svgomg/) — SVG optimization
 
-«A7» Вихідний код відформатований за допомогою Prettier.
+---
 
-«A8» Всі зображення та текстовий контент взяті з макета.
-
-«A9» Підключений нормалізатор стилів modern-normalize
-
-«A10» Всі стилі написані в одному файлі styles.css, який знаходиться в папці css.
-
-«A11» Код написаний з дотриманням настанови.
-
-Розмітка
-
-«B1» Для всіх іконок використовується векторна графіка у форматі svg.
-
-«B2» SVG-іконки експортовані правильно. При експорті обрана «група», а не сам вектор.
-
-«B3» Всі іконки з SVG-спрайту додані в HTML за допомогою тегів <svg> і <use>
-
-«B4» В секції переваг (секція без назви з переліком переваг над Our Team) додані іконки.
-
-«B5» В секції Our Team додані іконки соцмереж.
-
-«B7» У футері додані іконки соцмереж.
-
-«B8» Виконана HTML-розмітка всіх елементів макету.
-
-«B9» Теги використані відповідно до їх семантичного змісту.
-
-Оформлення
-
-«C1» Велике зображення з ефектом затемнення (під хедером) виконано як фон. Для затемнення використовується багатошаровий фон з градієнтом.
-
-«C2» Фонове зображення в блоці під хедером не розтягується ширше свого оригінального розміру 1440рх.
-
-«C3» У картках секції Our Team є постійний ефект тіні.
-
-«C4» У картках секції Our Portfolio є ефект тіні при ховері в будь-якому місці картки.
-
-«C5» При ховері або фокусі іконки повинні переходити в активний стан - змінювати колір, якщо це зазначено в макеті.
-
-«C6» Для всіх ефектів ховера і фокуса (колір, фон, тінь) зроблені переходи. Час - 250ms, функція розподілу часу - cubic-bezier(0.4, 0, 0.2, 1).
-
-«C7» У переходах явно зазначені анімовані властивості. Ніде немає значення all.
-
-«C8» В головній навігації, за допомогою псевдоелемента ::after, зроблено підкреслення посилання поточної сторінки (на якій зараз знаходиться користувач).
-
-«C9» Оверлей з текстом на картках секції Our Portfolio з'являється при ховері в будь-якому місці картки.
-
-«C10» Синій оверлей в картках секції Our Portfolio виїжджає знизу.
-
-«C11» У псевдоелементів відсутній текстовий контент у властивості content. Вони використані виключно для декоративного оформлення.
+**Live page:** [GitHub Pages](https://akinaru72.github.io/goit-markup-hw-04/)
