@@ -60,8 +60,9 @@
 - **[Макет у Figma](<https://www.figma.com/file/wuEpGhwCepGCOUw7mZFRac/Web-Studio-(Version-5.0)?type=design&node-id=297016-823&mode=design&t=HqslgV0OjDOknzIj-0>)**
 - **[IcoMoon](https://icomoon.io/)**
 - **[SVGOMG](https://jakearchibald.github.io/svgomg/)**
+- **[Code Guide](https://codeguide.co/)**
+- **[modern-normalize](https://github.com/sindresorhus/modern-normalize)**
 
 ---
 
-**Жива сторінка:**  
-[GitHub Pages](https://akinaru72.github.io/goit-markup-hw-04/)
+**Жива сторінка: [GitHub Pages](https://akinaru72.github.io/goit-markup-hw-04/)**
